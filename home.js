@@ -53,7 +53,7 @@ console.log(greetUser('andrew'));
 
 const deliveryAreaZipCodes = [85205, 85204, 85203, 85213, 85206]
 
-//CODE HERE
+
 
 
 
@@ -110,7 +110,7 @@ const deals = [
     to replace the 15 with a 10.
 */
 
-//CODE HERE
+deals[0].title = deals[0].title.replace('15', '10');
 
 
 
@@ -127,4 +127,5 @@ const deals = [
     to be displaying wrong on the live site.
 */
 
-//CODE HERE
+deals[1].desc = deals[1].desc.trim().replace('march', 'april');
+console.log(deals[1].desc);

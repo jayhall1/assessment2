@@ -74,7 +74,8 @@ console.log(pizza.tags[1]);
     Print the value of your new price variable.
 */
 
-//CODE HERE
+var {name, price, category, popularity, rating, tags} = pizza;
+console.log('pissa', 175, 'vegan', 200, 1,'gluten free' )
 
 
 /*
@@ -168,7 +169,16 @@ const foodArr = {
     Return the filtered array from the entire function
 */
 
-//CODE HERE
+const filterByProperty = (property, number, type) => {
+    const filteredFood = foodArr.filter((element) => {
+        if(type === 'above') {
+            return element[property] >= number;
+        }else if(type === 'below') {
+            return element[property] <= number;
+        }
+        return filteredFood
+    })
+}
 
 
 /*
@@ -178,4 +188,4 @@ const foodArr = {
     You'll have to console.log to see the filtered array
 */
 
-//CODE HERE
+filterByProperty('ratings', 5, 'above')

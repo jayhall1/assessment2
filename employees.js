@@ -65,7 +65,7 @@ console.log(empOne);
     dot or bracket notation.
 */
 
-//CODE HERE
+
 
 
 
@@ -107,7 +107,7 @@ console.log(empOne);
     employees: Cece and Schmidt
 */
 
-//CODE HERE
+var manager = new manager('jaylen', 'weekeend morning', 'kweli and mahad')
 
 
 /*
@@ -115,7 +115,7 @@ console.log(empOne);
     `manager` object.  
 */
 
-//CODE HERE
+manager.getEmployee()
 
 /*
     Call the `addEmployee` method on the 
@@ -123,7 +123,7 @@ console.log(empOne);
     'Coach' or whatever name you'd like.
 */
 
-//CODE HERE 
+manager.addEmployee('coach')
 
 /*
     Call the `getEmployees` method on the
@@ -131,4 +131,4 @@ console.log(empOne);
     that an employee was added.
 */
 
-//CODE HERE
+manager.getEmployee()

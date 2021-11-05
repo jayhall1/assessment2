@@ -53,8 +53,10 @@ const cart = [
     decimals, for example: .06 for a 6% tax.
 */
 
-//CODE HERE
-
+function calcFinalPrice(cartTotal, couponValue, tax) {
+    let finalprice = (cartTotal * tax / 100) + cartTotal - couponValue
+}
+console.log(calcFinalPrice(10, 7, 5))
 
 
 //////////////////PROBLEM 3////////////////////
@@ -87,4 +89,8 @@ const cart = [
     guidelines.
 */
 
-//CODE HERE
+const customer = {
+    toppings: 'pepperoni',
+    sauce: 'reg',
+    table: 2,
+}
