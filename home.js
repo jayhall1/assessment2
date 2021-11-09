@@ -74,8 +74,13 @@ const deliveryAreaZipCodes = [85205, 85204, 85203, 85213, 85206]
     Name your new function `canWeDeliverTwo`.
 */
 
-// CODE HERE
-
+const canWeDeliver = (zipcode) => {
+    if (deliveryAreaZipCodes.includes(zipcode)){
+        return 'your in our delivery zone';
+    }
+    return 'sorry, we dont deliver to that address'
+}
+console.log(canWeDeliver())
 
 //////////////////PROBLEM 3////////////////////
 /* 

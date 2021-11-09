@@ -92,8 +92,18 @@ console.log(empOne);
     the employees array. 
 */
 
-//CODE HERE
-
+class manager extends employee {
+    constructor(name, shift, employees) {
+        super(name, shift)
+        this.employees = [employees]
+    }
+getEmployee() {
+    console.log(`${this.name} manages ${employee}`)
+}
+addEmployee(emp) {
+this.employees.push(push)
+}
+}
 
 
 /*

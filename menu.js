@@ -85,7 +85,8 @@ console.log('pissa', 175, 'vegan', 200, 1,'gluten free' )
     Print the value of your category variable. 
 */
 
-//CODE HERE
+pizza.category = 'meat lovers pizza';
+console.log(category)
 
 
 //////////////////PROBLEM 3////////////////////
@@ -124,7 +125,11 @@ const foodArr = {
     your food objects has.
 */
 
-//CODE HERE
+const filteredFood = foodArr.filter((element)=> {
+    if(element.tags.includes("delicious")){
+        return element;
+    }
+})
 
 // const filteredFood = foodArr.filter(/* CALLBACK HERE */)
 
